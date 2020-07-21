@@ -1,11 +1,11 @@
-def int2binary(x):
+def int2binary(X):
   c=[]
   while (x!=0):
-    r = x % -2
-    x //= -2
+    r = X % -2
+    X //= -2
     if r < 0 :
       r+= 2
-      x += 1
+      X += 1
     c = c+[r] 
   return c
 
